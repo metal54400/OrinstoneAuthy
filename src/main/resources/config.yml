@@ -1,0 +1,51 @@
+# ᴏʀɪɴsᴛᴏɴᴇᴀᴜᴛʜʏ - ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ ꜰɪɴᴀʟᴇ
+password-settings:
+  min-characters: 6
+  max-characters: 16
+
+remember-me:
+  enabled: true
+  duration-days: 3
+
+# ʟɪᴇᴜ ᴏù ʟᴇ ᴊᴏᴜᴇᴜʀ ᴀᴛᴛᴇɴᴅ ᴘᴏᴜʀ ᴛᴀᴘᴇʀ /ʟᴏɢɪɴ ᴏᴜ /ʀᴇɢɪsᴛᴇʀ (ɪᴍᴀɢᴇ 1 - ʙᴀs)
+auth-location:
+  world: "world"
+  x: 744.680
+  y: 35.0
+  z: -1711.137
+  yaw: 0.0
+  pitch: 0.0
+
+# ʟɪᴇᴜ ᴏù ʟᴇ ɴᴏᴜᴠᴇᴀᴜ ᴊᴏᴜᴇᴜʀ ᴇsᴛ ᴇɴᴠᴏʏé ᴀᴘʀès sᴏɴ /ʀᴇɢɪsᴛᴇʀ (ɪᴍᴀɢᴇ 2 - ʜᴀᴜᴛ)
+new-player-spawn:
+  world: "world"
+  x: 744.680
+  y: 71.0
+  z: -1711.137
+  yaw: 0.0
+  pitch: 0.0
+
+messages:
+  prefix: "§8[§6ᴏʀɪɴsᴛᴏɴᴇᴀᴜᴛʜʏ§8] "
+  register-usage: "§cᴜᴛɪʟɪsᴀᴛɪᴏɴ: /ʀᴇɢɪsᴛᴇʀ <ᴍᴏᴛᴅᴇᴘᴀssᴇ> <ᴄᴏɴꜰɪʀᴍᴀᴛɪᴏɴ>"
+  login-usage: "§cᴜᴛɪʟɪsᴀᴛɪᴏɴ: /ʟᴏɢɪɴ <ᴍᴏᴛᴅᴇᴘᴀssᴇ>"
+  reset-usage: "§cᴜᴛɪʟɪsᴀᴛɪᴏɴ: /ʀᴇsᴇᴛᴘᴀssᴡᴏʀᴅ <ᴀɴᴄɪᴇɴ> <ɴᴏᴜᴠᴇᴀᴜ>"
+  admin-reset-usage: "§cᴜᴛɪʟɪsᴀᴛɪᴏɴ: /ᴏʀɪɴsᴛᴏɴᴇᴀᴅᴍɪɴ ʀᴇsᴇᴛ <ᴊᴏᴜᴇᴜʀ> <ɴᴏᴜᴠᴇᴀᴜᴘᴀss>"
+  success-login: "§aᴠᴏᴜs êᴛᴇs ᴍᴀɪɴᴛᴇɴᴀɴᴛ ᴄᴏɴɴᴇᴄᴛé !"
+  success-register: "§aᴄᴏᴍᴘᴛᴇ ᴄʀéé ᴀᴠᴇᴄ sᴜᴄᴄès !"
+  success-reset: "§aᴍᴏᴛ ᴅᴇ ᴘᴀssᴇ ᴍᴏᴅɪꜰɪé ᴀᴠᴇᴄ sᴜᴄᴄès !"
+  admin-success-reset: "§6ʟᴇ ᴍᴏᴛ ᴅᴇ ᴘᴀssᴇ ᴅᴇ {player} ᴀ éᴛé ʀéɪɴɪᴛɪᴀʟɪsé."
+  wrong-password: "§cᴍᴏᴛ ᴅᴇ ᴘᴀssᴇ ɪɴᴄᴏʀʀᴇᴄᴛ."
+  not-registered: "§cᴠᴇᴜɪʟʟᴇᴢ ᴅ'ᴀʙᴏʀᴅ ᴠᴏᴜs ᴇɴʀᴇɢɪsᴛʀᴇʀ."
+  already-registered: "§cᴠᴏᴜs êᴛᴇs ᴅéᴊà ᴇɴʀᴇɢɪsᴛʀé."
+  remember-on: "§eᴄᴏɴɴᴇxɪᴏɴ ᴀᴜᴛᴏᴍᴀᴛɪǫᴜᴇ ᴀᴄᴛɪᴠéᴇ (3 ᴊᴏᴜʀs)."
+  remember-off: "§7ᴄᴏɴɴᴇxɪᴏɴ ᴀᴜᴛᴏᴍᴀᴛɪǫᴜᴇ ᴅésᴀᴄᴛɪᴠéᴇ."
+  no-permission: "§cᴠᴏᴜs ɴ'ᴀᴠᴇᴢ ᴘᴀs ʟᴀ ᴘᴇʀᴍɪssɪᴏɴ."
+
+# ᴍᴇssᴀɢᴇs ᴘᴏᴜʀ ʟᴇs ɴᴏᴛɪꜰɪᴄᴀᴛɪᴏɴs ᴀᴅᴍɪɴ (ᴘᴇʀᴍɪssɪᴏɴ: ᴏʀɪɴsᴛᴏɴᴇᴀᴜᴛʜʏ.ᴀᴅᴍɪɴ)
+admin-logs:
+  register: "§8[§eʟᴏɢ§8] §7ʟᴇ ᴊᴏᴜᴇᴜʀ §e{player} §7s'ᴇsᴛ §ᴀᴇɴʀᴇɢɪsᴛʀé§7."
+  login: "§8[§eʟᴏɢ§8] §7ʟᴇ ᴊᴏᴜᴇᴜʀ §e{player} §7s'ᴇsᴛ §ᴀᴄᴏɴɴᴇᴄᴛé§7."
+  remember: "§8[§eʟᴏɢ§8] §7ʟᴇ ᴊᴏᴜᴇᴜʀ §e{player} §7ᴀ ᴍᴏᴅɪꜰɪé sᴏɴ §6ʀᴇᴍᴇᴍʙᴇʀᴍᴇ§7."
+  unregister: "§8[§eʟᴏɢ§8] §7ʟᴇ ᴊᴏᴜᴇᴜʀ §e{player} §7s'ᴇsᴛ §ᴄᴅésɪɴsᴄʀɪᴛ§7."
+  reset: "§8[§eʟᴏɢ§8] §7ʟᴇ ᴊᴏᴜᴇᴜʀ §e{player} §7ᴀ §ʙᴄʜᴀɴɢé §7sᴏɴ ᴍᴏᴛ ᴅᴇ ᴘᴀssᴇ."

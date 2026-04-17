@@ -1,0 +1,18 @@
+name: Orinstoneauthy
+version: 1.2
+main: fr.orinstone.authy.Orinstoneauthy
+api-version: '1.21'
+commands:
+  register:
+    description: S'enregistrer sur le serveur.
+  login:
+    description: Se connecter.
+  unregister:
+    description: Supprimer son compte.
+  remember:
+    description: Activer/Désactiver la connexion automatique (3j).
+  resetpassword:
+    description: Changer son propre mot de passe.
+  orinstoneadmin:
+    description: Commande admin pour gérer l'authentification.
+    permission: orinstoneauthy.admin
